@@ -1,6 +1,6 @@
 {
-    "games":{
-        "game1":{
+    "games":[
+        {
             "platform":{
                 "launch year": 1989,
                 "name": "Atari Lynx"
@@ -8,7 +8,7 @@
             "title": "Chip's Challenge",
             "year": 1989
         },
-        "game2":{
+        {
             "platform":{
                 "launch year": 2003,
                 "name": "Steam"
@@ -16,7 +16,7 @@
             "title": "Chip's Challenge 2",
             "year": 2015
         },
-        "game3":{
+        {
             "platform":{
                 "launch year": 2013,
                 "name": "Playstation 4"
@@ -24,5 +24,5 @@
             "title": "Persona 5",
             "year": 2017
         }
-    }
+    ]
 }
