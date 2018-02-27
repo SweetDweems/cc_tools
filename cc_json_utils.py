@@ -12,7 +12,6 @@ def make_level_from_json(json_data, title):
         if fieldInt == 3:
             field = cc_data.CCMapTitleField(title)
             level.add_field(field)
-            continue
         if fieldInt == 6:
             field = cc_data.CCEncodedPasswordField(json_data["password"])
             level.add_field(field)
@@ -21,8 +20,8 @@ def make_level_from_json(json_data, title):
             level.add_field(field)
         if fieldInt == 10:
             monsters = []
-            for xcoord in json_data["monsters"]:
-                monsterCoord = cc_data.CCCoordinate(int(xcoord), json_data["monsters"][xcoord])
+            for coords in json_data["monsters"]:
+                monsterCoord = cc_data.CCCoordinate(coords[0], coords[1])
                 monsters.append(monsterCoord)
             field = cc_data.CCMonsterMovementField(monsters)
             level.add_field(field)

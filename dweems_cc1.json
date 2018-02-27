@@ -71,7 +71,7 @@
                 "optional fields":[3,6,7,10],
                 "password":[219,216,210,220],
                 "hint":"Collect all keys to open the socket and keys to unlock doors",
-                "monsters":{"2":5, "7":5}
+                "monsters":[[2,5], [7,5]]
             },
             "Level 2":{
                 "num":2,
@@ -144,7 +144,7 @@
                 "optional fields":[3,6,7,10],
                 "password":[195,214,214,212],
                 "hint":"Collect all keys to open the socket and keys to unlock doors",
-                "monsters":{"2":6, "7":6}
+                "monsters":[[2,6], [7,6]]
             }
     }
 }
