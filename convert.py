@@ -40,4 +40,4 @@ def makeDatFromJson(json_file="dweems_cc1.json", datFileName="dweems_cc1.dat"):
         levelPack.add_level(level)
     cc_dat_utils.write_cc_data_to_dat(levelPack, datFileName)
 
-makeDatFromJson(input_json_file, "dweems_cc1.dat")
+#makeDatFromJson(input_json_file, "dweems_cc1.dat")
